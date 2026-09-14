@@ -251,6 +251,8 @@ ul { list-style: none; }
 .product-points { margin: 1.4rem 0 2rem; display: grid; gap: 0.9rem; }
 .product-points li { display: flex; gap: 0.8rem; align-items: flex-start; color: var(--text-muted); }
 
+.product-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+
 /* ---------- About ---------- */
 .about { display: grid; grid-template-columns: 1.3fr 1fr; gap: 3rem; align-items: center; }
 
