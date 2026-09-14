@@ -10,7 +10,7 @@ const i18n = {
     "hero.badge": "Productos propios & soluciones a medida",
     "hero.title1": "Construimos lo que nos apasiona",
     "hero.title2": "y lo hacemos a tu medida.",
-    "hero.subtitle": "En Acrovane construimos productos propios con creatividad e innovación — Zenith es solo el inicio. Aplicamos esa misma pasión y estándar de calidad a cada página web y CRM a medida para tu negocio.",
+    "hero.subtitle": "En Acrovane creamos nuestros propios productos con creatividad e innovación — Zenith es solo el inicio — y ponemos esa misma pasión y estándar en cada página web y CRM que construimos a la medida de tu negocio.",
     "hero.ctaPrimary": "Conoce Zenith",
     "hero.ctaSecondary": "Ver servicios",
     "products.tag": "Productos propios",
