@@ -195,7 +195,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const formData = new FormData(form);
     const payload = Object.fromEntries(formData.entries());
 
-    fetch("https://formspree.io/f/YOUR_FORM_ID", {
+    fetch("https://formspree.io/f/xvkojdyq", {
       method: "POST",
       body: JSON.stringify(payload),
       headers: { "Content-Type": "application/json", Accept: "application/json" }
