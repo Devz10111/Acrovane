@@ -193,12 +193,11 @@ document.addEventListener("DOMContentLoaded", () => {
     submitBtn.textContent = i18n[currentLang]["form.sending"];
 
     const formData = new FormData(form);
-    const payload = Object.fromEntries(formData.entries());
 
     fetch("https://formspree.io/f/xvkojdyq", {
       method: "POST",
-      body: JSON.stringify(payload),
-      headers: { "Content-Type": "application/json", Accept: "application/json" }
+      body: formData,
+      headers: { Accept: "application/json" }
     })
       .then((res) => {
         if (res.ok) {
